@@ -59,8 +59,8 @@ This project is a backend service for a daily expenses sharing application. It a
 Open your browser and navigate to http://127.0.0.1:8000/docs to view the interactive API documentation
 
 
-#Usage
-##Adding a User
+#  Usage
+##  Adding a User
 -To add a user, make a POST request to /api/users with the following JSON body:
 {
   "email": "user@example.com",
@@ -68,7 +68,7 @@ Open your browser and navigate to http://127.0.0.1:8000/docs to view the interac
   "mobile_number": "1234567890"
 }
 
-##Adding an Expense
+##  Adding an Expense
 To add an expense, make a POST request to /api/expenses with the following JSON body:
 {
   "amount": 100,
@@ -81,7 +81,7 @@ To add an expense, make a POST request to /api/expenses with the following JSON 
   ]
 }
 
-##Downloading the Balance Sheet
+## Downloading the Balance Sheet
 To download the balance sheet, make a GET request to /api/balance-sheet/download. This will return an Excel file with the balance sheet.
 
 
