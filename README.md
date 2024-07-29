@@ -45,10 +45,12 @@ This project is a backend service for a daily expenses sharing application. It a
 3. Install the dependencies
    pip install -r requirements.txt
 
-4. Running the project
+4. Running the server
     uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
-## Documentation and Running the Application
+## Documentation and Running the Application and Testing the Apis
+   FastAPI provides automatic interactive API documentation with Swagger UI 
+   (an interactive API explorer. It allows you to test your API directly from the browser. Access it at /docs)
 
 1. Start the fast api server
    uvicorn main:app --host 127.0.0.1 --port 8000 --reload
