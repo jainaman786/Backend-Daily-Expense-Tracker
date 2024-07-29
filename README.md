@@ -36,8 +36,6 @@ This project is a backend service for a daily expenses sharing application. It a
 
 1. Clone the repository
    git clone https://github.com/jainaman786/Backend-Daily-Expense-Tracker.git
-   
-   cd expense-tracker-app
 
 3. Create and activate a virtual environment
    python -m venv venv
